@@ -32,6 +32,10 @@ void Config::setPointScaleFactor(float pixelsInPoint) {
   YGConfigSetPointScaleFactor(m_config, pixelsInPoint);
 }
 
+void Config::setPrintTreeFlag(bool enabled) {
+  YGConfigSetPrintTreeFlag(m_config, enabled);
+}
+
 bool Config::isExperimentalFeatureEnabled(int feature) const {
   return YGConfigIsExperimentalFeatureEnabled(
       m_config, static_cast<YGExperimentalFeature>(feature));

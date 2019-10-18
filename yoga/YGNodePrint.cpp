@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+#define DEBUG
+
 #ifdef DEBUG
 #include "YGNodePrint.h"
 #include <stdarg.h>

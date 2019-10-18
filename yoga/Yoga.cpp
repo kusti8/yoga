@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+#define DEBUG
+
 #include "Yoga.h"
 #include "log.h"
 #include <float.h>

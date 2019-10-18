@@ -36,6 +36,7 @@ NBIND_CLASS(Config) {
 
   method(setExperimentalFeatureEnabled);
   method(setPointScaleFactor);
+  method(setPrintTreeFlag);
 
   method(isExperimentalFeatureEnabled);
 }

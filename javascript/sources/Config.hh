@@ -34,6 +34,7 @@ public: // Prevent accidental copy
 public: // Setters
   void setExperimentalFeatureEnabled(int feature, bool enabled);
   void setPointScaleFactor(float pixelsInPoint);
+  void setPrintTreeFlag(bool enabled);
 
 public: // Getters
   bool isExperimentalFeatureEnabled(int feature) const;
